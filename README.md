@@ -7,7 +7,7 @@ A `git add --patch` but for conflict resolution.
 
 This tool provides an interactive interface to view and resolve conflicts either by viewing entire files or individual conflict hunks. It offers options to keep changes from either branch, manually edit conflicts, or use external tools like `vimdiff`.
 
-`vimdiff` and tools in IDEs are great when you have a complex merge to resolve. but sometimes you can look at a conflict and quickly decide which change to accept.
+`vimdiff` and tools in IDEs are great when you have a complex merge to resolve. But sometimes you can look at a conflict and quickly decide which change to accept without needing open an editor.
 
 `git-simple-merge` lets you do just that. Either triggered by `git mergetool` or ran by itself.
 
